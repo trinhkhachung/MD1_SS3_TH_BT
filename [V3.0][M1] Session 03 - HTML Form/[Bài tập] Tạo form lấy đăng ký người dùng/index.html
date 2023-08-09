@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Tạo form lấy đăng ký người dùng</title>
+    <style>
+        /* 1 label dùng để làm nhãn dán(focus vào ô nhập dữ liệu với thuộc tính 
+        for dùng với id của thẻ) 
+        2 input ô nhập dữ liệu
+        -các thuộc tính riêng của thẻ
+        */
+        div {
+            border: 1px solid black;
+            width: 180px;
+            height: 250px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form action="#" method="post"></form>
+        <label for="fullname">Họ và tên:</label><br>
+        <input type="text" required><br>
+        <label for="email">Email</label><br>
+        <input type="email"><br>
+        <label for="numberphone">Số điện thoại:</label><br>
+        <input type="text" required><br>
+        <label for="gender">Giới tính:</label><br>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Nam</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Nữ</label><br>
+        <input type="button" value="Đăng kí">
+    </div>
+</body>
+
+</html>

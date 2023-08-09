@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>bt1.2</title>
+    <style>
+        div {
+            background-color: pink;
+            border: 5px solid pink;
+        }
+        h2{
+            margin-top: 0px;
+        }
+        label{
+            display: inline-block;
+            min-width: 100px;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <h2 style="color: red;background-color: aqua;">ĐĂNG KÍ HỌC VIÊN</h2>
+        <form action="#"method="post">
+            <label for="fullname">Họ và tên:</label>
+            <input type="text" name="fullname" id="fullname"required><br>
+            <label for="datetime">Ngày sinh:</label>
+            <input type="text" name="datetime" id="datetime"required><br>
+            <label for="gender">Giới tính:</label>
+            <input type="radio" name="gender" id="male"value="male"required>
+            <label for="male">Nam</label>
+            <input type="radio" name="gender" id="female"value="female">
+            <label for="female">Nữ</label><br>
+            <label for="adress">Địa chỉ:</label>
+            <textarea name="adress" id="adress" cols="30" rows="5"></textarea><br>
+            <label for="class">Lớp:</label>
+            <select name="class" id="class">
+                <option value="">-Chọn Lớp-</option>
+                <option value="">11a1</option>
+                <option value="">11a2</option>
+                <option value="">11a3</option>
+                <option value="">11a4</option>
+                <option value="">11a5</option>
+            </select><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"required><br>
+            <label for="numberphone">Số điện thoại:</label>
+            <input type="numberphone" name="numberphone" id="numberphone"required><br>
+            <input type="submit"value="Đăng kí">
+            <input type="submit"value="Nhập lại">
+        </form>
+    </div>
+</body>
+</html>

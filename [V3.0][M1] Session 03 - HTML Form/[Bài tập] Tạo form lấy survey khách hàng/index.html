@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập</title>
+    <!-- cellpadding lầ khoảng cách từ content đến viền-item
+        cellspacing là khoảng cách từ boder đến viền- item
+        => là thuộc tính riêng của thẻ table(artribute)
+        -----------------
+        gộp các cột trong bảng:colspan
+        gộp các hàng trong bảng : rowspan
+     -->
+    <style>
+        input {
+            display: inline-block;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        tr {
+            text-align: center;
+        }
+
+        select {
+            width: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Market Research Survery</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, incidunt cum. Libero, delectus beatae!
+            Voluptatem recusandae facere ipsam consequuntur doloremque</p>
+        <h4>What meo meo is meo gau gau?</h4>
+        <select name="" id="">
+            <option value="">$6-S500</option>
+            <option value="">$6-$700</option>
+            <option value="">$7-$1000</option>
+        </select><br>
+        <h4>What huhu haha haueba jkebkaeuw?</h4>
+        <select name="" id="">
+            <option value="">no</option>
+            <option value="">yess</option>
+            <option value="">ko biết</option>
+        </select><br>
+        <h4>Game ưa thích</h4>
+        <input type="radio" name="test">Liên quân<br>
+        <input type="radio" name="test">Free fire<br>
+        <input type="radio" name="test">Pubg<br>
+        <input type="radio" name="test">Liên Minh<br>
+        <input type="text" style="margin-left: 30px;">
+        <h4>Ai đẹp trai nhất lớp?</h4>
+        <input type="checkbox" name="test">Hiếu cụ<br>
+        <input type="checkbox" name="test">Hoàng to<br>
+        <input type="checkbox" name="test">Lộc fuho<br>
+        <h4>Lương mong muốn sau khi học xong?</h4>
+        <input type="radio" name="test">1000$<br>
+        <input type="radio" name="test">5tr<br>
+        <input type="radio" name="test">10tr<br>
+        <h4>What would you meny?</h4>
+        <label for="">$</label>
+        <input type="text" size="10">^
+        <input type="text" size="1"><br>
+        <h4>What do yeu go to at home?</h4>
+        <textarea name="" id="" cols="202" rows="10"></textarea>
+        <p>Plase hshu ius hu yeti olk yev hgbv rasc erv beds gys</p>
+        <table>
+            <tr style="background-color: aliceblue;">
+                <th colspan="1"></th>
+                <th>Có</th>
+                <th>Không</th>
+                <th>Không biết</th>
+                <th>Chịu</th>
+            </tr>
+            <tr>
+                <th colspan="1">Có lên ăn cơm không</th>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+            </tr>
+            <tr style="background-color: aliceblue;">
+                <th>Có thích chơi game không?</th>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+            </tr>
+            <tr>
+                <th>Lorem ipsum, dolor sit amet consecteturniti</th>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+    </div>
+
+</body>
+
+</html>
